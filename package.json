@@ -1,0 +1,27 @@
+{
+  "name": "key-value-store",
+  "version": "1.0.0",
+  "description": "A key-store built using first principles using Go. Why build a key-store in the first place? Well, I just wanted to work on something simple yet interesting.",
+  "homepage": "https://github.com/NithinSravan/key-value-store#readme",
+  "bugs": {
+    "url": "https://github.com/NithinSravan/key-value-store/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NithinSravan/key-value-store.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node client.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "net": "^1.0.2",
+    "readline": "^1.3.0"
+  }
+}
